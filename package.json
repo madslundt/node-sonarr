@@ -1,17 +1,14 @@
 {
   "name": "node-sonarr",
   "description": "Node interface for Sonarr",
-  "author": {
-    "name": "Mads Lundt",
-    "email": "madslundt@live.dk"
-  },
+  "author": "Mads Lundt <madslundt@live.dk>",
   "keywords": [
     "sonarr",
     "tv",
     "series",
     "api"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/sonarr.js",
   "repository": {
     "type": "git",
@@ -19,11 +16,14 @@
   },
   "homepage": "https://github.com/madslundt/node-sonarr",
   "dependencies": {
-  	"q": "1.2.0",
+    "q": "1.2.0",
     "request": "2.53.0"
   },
   "license": "GPL v2",
   "bugs": {
     "url": "https://github.com/madslundt/node-sonarr/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
